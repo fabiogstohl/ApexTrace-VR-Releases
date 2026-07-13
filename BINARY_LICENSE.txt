@@ -1,0 +1,21 @@
+ApexTrace VR Free Beta Binary License
+
+Copyright (c) 2026 the ApexTrace VR author. All rights reserved.
+
+Permission is granted to download and use unmodified official ApexTrace VR beta binary
+releases free of charge for personal, non-commercial use and evaluation.
+
+No source-code license is granted. You may not sell, sublicense, misrepresent, or
+redistribute modified ApexTrace VR binaries. Written permission from the copyright
+holder is required for commercial use or redistribution outside the official release
+channel.
+
+This license applies only to the original ApexTrace VR components. Third-party
+components are provided under the separate licenses identified in
+THIRD_PARTY_NOTICES.md and the licenses directory.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR ITS USE.
