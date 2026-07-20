@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support checklist
+    url: https://github.com/fabiogstohl/ApexTrace-VR-Releases/blob/main/SUPPORT.md
+    about: Check setup, diagnostics and required report details first.
+  - name: Privacy information
+    url: https://github.com/fabiogstohl/ApexTrace-VR-Releases/blob/main/PRIVACY.md
+    about: Review what local diagnostics and support bundles can contain.

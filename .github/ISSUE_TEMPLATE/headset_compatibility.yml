@@ -1,0 +1,83 @@
+name: Headset compatibility report
+description: Add a working or failing VR configuration to the compatibility matrix
+title: "[Compatibility] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: ApexTrace VR and LMU versions
+      placeholder: ApexTrace 0.2.0-beta.58, LMU build/date
+    validations:
+      required: true
+  - type: input
+    id: headset
+    attributes:
+      label: Headset and connection
+      placeholder: Meta Quest 3, Steam Link over Wi-Fi 6E
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Active OpenXR runtime
+      placeholder: SteamVR OpenXR
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: GPU, driver and Windows version
+    validations:
+      required: true
+  - type: input
+    id: refresh_rate
+    attributes:
+      label: Headset refresh rate
+      placeholder: 90 Hz
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Overall result
+      options:
+        - Working without a workaround
+        - Working with a documented workaround
+        - Partially working
+        - Not working
+    validations:
+      required: true
+  - type: textarea
+    id: stages
+    attributes:
+      label: Menu, loading, in-car, pause and exit results
+    validations:
+      required: true
+  - type: input
+    id: duration
+    attributes:
+      label: Approximate test duration
+      placeholder: 45 minutes
+    validations:
+      required: true
+  - type: dropdown
+    id: online
+    attributes:
+      label: Online / Easy Anti-Cheat tested?
+      options:
+        - No, offline only
+        - Yes, successful
+        - Yes, failed
+    validations:
+      required: true
+  - type: textarea
+    id: workaround_notes
+    attributes:
+      label: Workarounds and additional notes
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Publication
+      options:
+        - label: This configuration may be summarized in COMPATIBILITY.md.
+          required: true

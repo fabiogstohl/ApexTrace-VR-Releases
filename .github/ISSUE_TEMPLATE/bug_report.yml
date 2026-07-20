@@ -1,0 +1,110 @@
+name: Bug report
+description: Report a reproducible ApexTrace VR problem
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read SUPPORT.md and KNOWN_ISSUES.md first. Review support bundles before uploading them because they can contain local paths and system details.
+  - type: input
+    id: apextrace_version
+    attributes:
+      label: ApexTrace VR version
+      placeholder: 0.2.0-beta.58
+    validations:
+      required: true
+  - type: input
+    id: lmu_version
+    attributes:
+      label: LMU version
+      placeholder: Version or build date shown by LMU
+    validations:
+      required: true
+  - type: dropdown
+    id: output
+    attributes:
+      label: Output mode
+      options:
+        - OpenXR VR
+        - Desktop
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - LMU menu
+        - Loading screen
+        - In the car
+        - Pause / ESC menu
+        - Session exit
+        - ApexTrace control panel
+    validations:
+      required: true
+  - type: input
+    id: headset_connection
+    attributes:
+      label: Headset and connection
+      placeholder: Meta Quest 3, Quest Link cable
+  - type: input
+    id: runtime
+    attributes:
+      label: Active OpenXR runtime
+      placeholder: SteamVR OpenXR, Meta OpenXR, Vive OpenXR
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU and driver
+      placeholder: NVIDIA RTX 4070, driver 000.00
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: dropdown
+    id: session_type
+    attributes:
+      label: Session type
+      options:
+        - Offline
+        - Online / RaceControl / Easy Anti-Cheat
+        - Demo mode without LMU
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List the shortest sequence that reproduces the problem.
+      placeholder: |
+        1. Start...
+        2. Enter...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Status and diagnostics
+      description: Paste the relevant Status/Diagnostics values or attach a reviewed support bundle.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I fully restarted LMU after changing or updating the OpenXR layer.
+          required: true
+        - label: I reviewed any attached support bundle for private information.
+          required: true
