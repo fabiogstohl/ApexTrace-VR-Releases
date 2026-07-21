@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0-beta.59 - 2026-07-21
+
+- Fixes **Close HUD preview** leaving the PyInstaller child process and its HUD windows open.
+- Lets the preview close cooperatively when its temporary configuration is removed, with a process-tree fallback if it does not exit promptly.
+
 ## 0.2.0-beta.58 - 2026-07-21
 
 - Adds an isolated one-click desktop HUD preview with animated simulated telemetry, without changing the selected output mode or saved layout.

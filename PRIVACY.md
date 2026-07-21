@@ -15,7 +15,7 @@ application logs. Users should inspect it before uploading it to a public issue.
 Opening an external help or project link uses the system's default browser. ApexTrace VR
 does not transmit the support bundle automatically.
 
-Version 0.2.0-beta.58 checks the public GitHub Releases API in the background when the
+Version 0.2.0-beta.59 checks the public GitHub Releases API in the background when the
 control panel starts and when the user selects **Check for updates**. The request contains
 the application name and version in the standard HTTP user-agent header. No LMU telemetry,
 configuration, diagnostics, account identifier or support bundle is sent.
@@ -58,5 +58,5 @@ best laps, removes its OpenXR and Windows-startup registrations, and restores on
 menu-animation and recenter-binding values changed by ApexTrace. Unrelated LMU values and
 bindings are preserved.
 
-This document describes version 0.2.0-beta.58. A future release that adds an online service,
+This document describes version 0.2.0-beta.59. A future release that adds an online service,
 analytics or automatic uploads must update this document before release.
