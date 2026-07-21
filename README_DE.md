@@ -6,7 +6,9 @@
 
 > Oeffentliche Beta-Software. Lies vor Online-Sitzungen die Beta-Einschraenkungen.
 
-### [Neueste Windows-Beta herunterladen](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases)
+### [ApexTrace VR 0.2.0-beta.60 Installer herunterladen](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases/download/v0.2.0-beta.60/ApexTrace-VR-v0.2.0-beta.60-setup.exe)
+
+[Alle Release-Dateien und Pruefsummen anzeigen](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases)
 
 ![ApexTrace VR HUD-Vorschau](media/hud-preview.png)
 
@@ -17,9 +19,10 @@ Uebergaenge.
 
 ## Download
 
-Oeffne die [Release-Seite](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases) und lade die neueste Datei
-`ApexTrace-VR-...-setup.exe` herunter. Dies ist der normale Installer fuer den
-aktuellen Windows-Benutzer und benoetigt keine Administratorrechte.
+Lade den [aktuellen Windows-Installer](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases/download/v0.2.0-beta.60/ApexTrace-VR-v0.2.0-beta.60-setup.exe) herunter. Dies ist der
+normale Installer fuer den aktuellen Windows-Benutzer und benoetigt keine Administratorrechte.
+Aeltere Versionen und Pruefsummen bleiben auf der
+[Release-Seite](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases) verfuegbar.
 
 Das portable `windows-x64.zip` bleibt fuer fortgeschrittene Nutzung verfuegbar.
 Verwende nicht die automatisch von GitHub erzeugten `Source code`-Archive; sie
