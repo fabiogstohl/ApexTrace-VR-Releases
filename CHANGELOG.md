@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0-beta.60 - 2026-07-22
+
+- Stops producing GPU frames after the OpenXR HUD has been hidden in LMU menus or pause screens.
+- Copies only visible HUD-module regions into the OpenXR swapchain instead of the complete atlas texture.
+- Consolidates default opacity rendering into one bounded Direct2D layer and skips dormant start, fuel, warning and control modules.
+- Keeps the existing HUD resolution and 60 FPS default while reducing GPU bandwidth and overdraw.
+- Adds a prominent, always-current download link to the GitHub repository front page.
+
 ## 0.2.0-beta.59 - 2026-07-21
 
 - Fixes **Close HUD preview** leaving the PyInstaller child process and its HUD windows open.
