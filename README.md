@@ -6,6 +6,8 @@
 
 > Public beta software. Read the beta limitations before using it in online sessions.
 
+### [Download the latest Windows beta](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases)
+
 ![ApexTrace VR HUD preview](media/hud-preview.png)
 
 The preview uses simulated telemetry. Verified LMU and OpenXR combinations are listed on
@@ -14,7 +16,7 @@ the [compatibility page](COMPATIBILITY.md). Open the
 
 ## Download
 
-Open the repository's **Releases** page and download the latest
+Open the [Releases page](https://github.com/fabiogstohl/ApexTrace-VR-Releases/releases) and download the latest
 `ApexTrace-VR-...-setup.exe` file. This is the normal per-user installer and does not
 require administrator rights.
 
